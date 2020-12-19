@@ -1,0 +1,13 @@
+certifi==2020.11.8
+chardet==3.0.4
+colorama==0.4.4
+commonmark==0.9.1
+idna==2.10
+kavenegar==1.1.2
+Pygments==2.7.2
+python-decouple==3.3
+pywin32==300
+requests==2.25.0
+subprocess.run==0.0.8
+typing-extensions==3.7.4.3
+urllib3==1.26.2
