@@ -18,9 +18,7 @@ Next open the source code and fill out these fields in source code:
 5. Kavenegar API 
 6. Sms receiver number
 
-Attention !
-
-This code works perfectly when it is converted to exe!
+Attention ! This code works perfectly when it is converted to exe!
 
 
 Done ! 
