@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+  <body>
+<!-- header For Pc -->
+  <div class="containe p-4 pc-nav">
+    <div class="row">
+      <nav class="fixed-top bg-info">
+  <div>
+    <img class="logo"  src="/logo.png" alt="logo">
+  </div>
+  <!-- text-logo -->
+  <div class="logo-text ms-2">
+    <span>
+      <h3>Pico</h3>
+    </span>
+    <span>
+      <h2>-GiGs</h2>
+    </span>
+  </div>
+
+  <ul class="nav-list ms-auto pe-5">
+    <li>Home</li>
+    <li>Services</li>
+    <li>Terms</li>
+  </ul>
+      </nav>
+    </div>
+  </div>
+
+<!-- NAvbar for mobiles  -->
+  <navbar class="navbar-02 fixed-top">
+    <div>
+      <img class="logo ms-2" src="/logo.png" alt="logo">
+    </div>
+    <div class="logo-text ms-2">
+      <span>
+        <h3>Pico</h3>
+      </span>
+      <span>
+        <h2>-GiGs</h2>
+      </span>
+    </div>
+    <i class="fas fa-bars fa-2x ms-auto me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" data-bs-backdrop="false">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="offcanvas-body">
+            <!-- Links for the body -->
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </navbar>
+
+
+
+<section class="regular-padding section-01">
+  <div class="containe p-4 sec-1">
+    <div class="row">
+      <div class="col-md-6 order-1 order-md-2 text-center aos-init aos-animate" data-aos="fade-left">
+        <img class="img-01"  loading="lazy" srcset="/image-1-small.jpg 320w, /image-1-medium.jpg 768w, /image-1.jpg 1200w" src="/image-1.jpg" class="img-fluid home-page" alt="">
+      </div>
+      <div class="col-md-6 pt-5 order-2 order-md-1 aos-init aos-animate" data-aos="fade-right">
+        <div class="h-100">
+          <h2><span class="font-light ms-3">Become A</span> <span class="font-bold">Social Media <span class="ms-3">Influencer</span></span></h2>
+          <p class="font-book mt-4">If you ever wanted to be seen, to change people's hearts and minds?! Now you have the opportunity to make it happen! By working together and promoting your channel, we can help you become more influential and share your thoughts with others.</p>
+          <div>
+            <button class="btn button-01 btn-lg mt-5 ms-3 mb-5">Get start</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <section class="regular-padding mt-5">
+      <div class="containe p-4 sec-2">
+          <div class="row">
+              <div class="sliding-back-image col-md-6 text-center aos-init aos-animate" data-aos="fade-right">
+                  <img class="img-fluid" loading="lazy" src="https://www.like4like.org/img/home-slider/social-bubles-arrow.png" width="493" height="303" alt="">
+                  <img class="img-fluid mt-3" loading="lazy" src="https://www.like4like.org/img/blog/community-liking-pizza-bien-390.webp" width="390" height="158" alt="">
+              </div>
+
+              <div class="col-md-6 pt-4 aos-init aos-animate" data-aos="fade-left">
+                  <div class="table-responsive h-100">
+                      <table class="table h-100">
+                          <tbody>
+                              <tr>
+                                  <td class="align-middle">
+                                      <h2><span class="font-bold">How </span> <span class="font-light">Like4Like Work?</span></h2>
+                                      <p class="fst-italic">Get free credits by liking, and they will like back!</p>
+                                      <br>
+                                      <ul class="font-book">
+                                          <li><i class="l4l-icon orange check"></i> 1. Join our community - <em>startup bonus of 30 credits</em></li>
+                                          <li><i class="l4l-icon orange check"></i> 2. <em>Add the Social Network Page</em> you want to promote</li>
+                                          <li><i class="l4l-icon orange check"></i> 3. <em>Buy credits</em> or get <em>Free credits</em> by liking and following others'  </li>
+                                          <li><i class="l4l-icon orange check"></i> 4. <strong>You will get followers and likes</strong></li>
+                                      </ul>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <div class="card-01 mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://fps.cdnpk.net/autopromos/gam/banner-calendar.png" alt="Calendar image banner" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <div class=" p-4">
+                <p class="mt-5">Welcome to the new Freepik calendar</p>
+                <h1 class="lead mt-5 fw-bold">All celebrations and events are at your fingertips</h1>
+                <div class="mb-4">
+                    <a href="https://www.freepik.com/calendar?from_element=content_banner_home">Browse calendar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  <section class="regular-padding   section-bg-white mt-5">
+    <div class="containe p-4 sec-4">
+      <div class="row  ">
+        <div class="col-md-6 order-1 order-md-2 text-center aos-init aos-animate" data-aos="fade-left">
+          <img loading="lazy" src="https://www.like4like.org/img/blog/influencer-magnet-shout-out.png" width="532" height="400" class="img-fluid home-page img-450" alt="">
+        </div>
+        <div class="col-md-6 pt-5 order-2 order-md-1 aos-init aos-animate" data-aos="fade-right">
+          <div class="h-100">
+            <h2><span class="font-light">Grow Your</span> <span class="font-bold">Social Media Presence</span></h2>
+            <p class="fst-italic">Are you satisfied with your job or maybe you are not?! Do we bet you want better for you and your closest ones?! Increasing your social media presence on the Internet will increase the demand for your products and services! It is up to you to make great products,  , and services, and it is up to us to share it with the World!</p>
+            <p class="font-book">A good or fabulous social media presence can help your business grow like wildflowers. But, this will only happen after you develop a large community of followers and learn how to give them what they want.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="containe p-4 mt-5 sec-3">
+    <div class="main-categories lohp-row max-width-containe p-4">
+      <h2>You need it, we've got it</h2>
+      <div class="categories-list row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 g-4">
+          <div class="col">
+              <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+                  <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+                  Graphics &amp; Design
+              </a>
+          </div>
+          <div class="col">
+            <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+                <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+                Graphics &amp; Design
+            </a>
+        </div>
+        <div class="col">
+          <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+              <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+              Graphics &amp; Design
+          </a>
+      </div>
+      <div class="col">
+        <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+            <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+            Graphics &amp; Design
+        </a>
+    </div>
+    <div class="col">
+      <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+          <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+          Graphics &amp; Design
+      </a>
+  </div>
+  <div class="col">
+    <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+        <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+        Graphics &amp; Design
+    </a>
+</div>
+<div class="col">
+  <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+      <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+      Graphics &amp; Design
+  </a>
+</div><div class="col">
+  <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+      <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+      Graphics &amp; Design
+  </a>
+</div><div class="col">
+  <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+      <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+      Graphics &amp; Design
+  </a>
+</div><div class="col">
+  <a href="/categories/graphics-design?source=hplo_cat_sec&amp;pos=1" class="category-link">
+      <img src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/graphics-design.91dfe44.svg" alt="Graphics &amp; Design" loading="lazy">
+      Graphics &amp; Design
+  </a>
+</div>
+
+
+
+      </div>
+  </div>
+
+  </div>
+
+
+
+
+  <div class="containe p-4 sec-5 mt-5">
+    <div class="row m03__row">
+      <div class="col-md-6 m-0 p-0">
+        <div class="m03__text-wrap p-5">
+          <h3 class="home-section__title m03__title">Overview</h3>
+          <p class="home-section__text m03__text">Workers earn badges for their successful experience on the platform. Our level system allows business owners to choose the level of specialist they would like to work with.</p>
+          <a href="/signup.php" class="btn btn-primary m03__btn mt-5">Find Workers</a>
+        </div>
+      </div>
+      <div class="col-md-6 m-0 p-0">
+        <div class="m03__img-wrap">
+          <div class="m03__img-wrap-inner">
+            <img src="https://sproutgigs.com/assets/images/home-worker/expertize-levels@2x.png" class="m03__img img-fluid" alt="Expertise Levels Overview" draggable="false">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <section class="regular-padding  section-bg-dark-grey mt-5">
+    <div class="containe p-4 sec-6">
+      <div class="row">
+        <div class="col-md-6 order-1 order-md-2 text-center aos-init aos-animate" data-aos="fade-left">
+          <img loading="lazy" src="https://www.like4like.org/img/blog/dedicated-support-woman-sitting.png" width="629" height="614" class="img-fluid home-page img-450" alt="">
+        </div>
+        <div class="col-md-6 pt-5 order-2 order-md-1 aos-init aos-animate" data-aos="fade-right">
+          <div class="h-100">
+            <h2><span class="font-bold">Dedicated</span> <span class="font-light">Email Support</span></h2>
+            <p class="fst-italic">First email response in less than 24 hours</p>
+            <p class="font-book">Our email support is available to you seven days a week, 365 days a year. To enable you to work and promote your   the way you want continuously. If you have any questions or need information on how to best promote your social media  , feel free to contact us anytime.</p>
+            <ul class="font-book ms-5">
+              <li><i class="l4l-icon orange check "></i> Seven days a week, 365 days a year.</li>
+              <li><i class="l4l-icon orange check "></i> First email response in less than 24 hours.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="regular-padding  mt-5 section-bg-grey">
+    <div class="containe p-4 sec-7">
+      <div class="row  ">
+        <div class="col-md-6 order-1 order-md-1 text-center aos-init aos-animate" data-aos="fade-left">
+          <img loading="lazy" src="https://www.like4like.org/img/blog/user-login-security-orange-450.webp" width="450" height="317" class="img-fluid home-page img-450" alt="">
+        </div>
+        <div class="col-md-6 pt-5 order-2 order-md-2 aos-init aos-animate" data-aos="fade-right">
+          <table class="h-100">
+            <tbody>
+              <tr>
+                <td class="align-middle pb-5">
+                  <h2 class="font-bold">Secure &amp; Private <span class="font-light">Community</span></h2>
+                  <p class="font-book">All you need to do to use Like4Like is to choose a username and the desired password. Complete your account creation by verifying your email. Security protocols allow you to work safely and securely anywhere in the World. Upon receiving your request by email, we will delete your account if you no longer wish to use our application, as stated in our Privacy Policy.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="containe p-4 last-sec sec-8">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="fib-banner-wrapper lohp-row">
+          <div class="fib-banner lohp-inner-row max-width-containe p-4">
+            <div class="grid-15 fib-banner-grid">
+              <div class="col-15-xs col-7-md business-text">
+                <div class="fib-banner-logo">
+                  <!-- Your SVG code here -->
+                </div>
+                <h2 class="font-domaine fib-banner-title">Advanced solutions and professional talent for businesses</h2>
+                <ul class="ubM6mZP fib-banner-list">
+                  <li class="sE8spSM">
+                    <div class="b58nMua">
+                      <svg width="24" height="24" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" fill="#B1ABFF">
+                        <!-- Your SVG path here -->
+                      </svg>
+                    </div>
+                    <div>
+                      <div><b>Fiverr Pro</b></div>
+                      <div>Access top freelancers and professional business tools for any project</div>
+                    </div>
+                  </li>
+                  <!-- Repeat similar structure for other list items -->
+                </ul>
+                <ul class="ubM6mZP fib-banner-list">
+                  <li class="sE8spSM">
+                    <div class="b58nMua">
+                      <svg width="24" height="24" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" fill="#B1ABFF">
+                        <!-- Your SVG path here -->
+                      </svg>
+                    </div>
+                    <div>
+                      <div><b>Fiverr Pro</b></div>
+                      <div>Access top freelancers and professional business tools for any project</div>
+                    </div>
+                  </li>
+                  <!-- Repeat similar structure for other list items -->
+                </ul>
+                <ul class="ubM6mZP fib-banner-list">
+                  <li class="sE8spSM">
+                    <div class="b58nMua">
+                      <svg width="24" height="24" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" fill="#B1ABFF">
+                        <!-- Your SVG path here -->
+                      </svg>
+                    </div>
+                    <div>
+                      <div><b>Fiverr Pro</b></div>
+                      <div>Access top freelancers and professional business tools for any project</div>
+                    </div>
+                  </li>
+                  <!-- Repeat similar structure for other list items -->
+                </ul>
+
+
+                <button class="learn-more-button btn-light mt-5 ms-4">
+                  <a class="sPdE5j4 FcchqMg co-grey-1000 fib-banner-learn-more__button Z9AShiH bg-co-white text-dark" target="_blank" href="/fiverr-business-solutions?source=LOHP_business_banner">Learn more</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <picture>
+          <source media="(min-width: 1160px)" srcset="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_1.0/v1/attachments/generic_asset/asset/51c35c7cecf75e6a5a0110d27909a2f5-1690202609364/EN.png 1x, https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_2.0/v1/attachments/generic_asset/asset/51c35c7cecf75e6a5a0110d27909a2f5-1690202609364/EN.png 2x">
+          <source media="(min-width: 900px)" srcset="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_585,dpr_1.0/v1/attachments/generic_asset/asset/51c35c7cecf75e6a5a... 2x">
+          <!-- Add additional source tags for different screen sizes -->
+          <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_500,dpr_1.0/v1/attachments/generic_asset/asset/51c35c7cecf75e6a5a0110d27909a2f5-1690202609364/EN.png" alt="Banner Image" class="img-fluid">
+        </picture>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="bottom_border p-5">
+        <div class="row">
+            <div class="col-sm-4 col-md col-sm-4 col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+                <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+                <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+                <p><i class="fa fa-envelope"></i> info@example.com  </p>
+            </div>
+
+            <div class="col-sm-4 col-md col-6 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                <ul class="footer_ul_amrc">
+                    <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+                    <li><a href="http://webenlance.com">Clipping Path</a></li>
+                    <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+                    <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+                    <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                    <li><a href="http://webenlance.com">Image Cropping</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4 col-md col-6 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                <ul class="footer_ul_amrc">
+                    <li><a href="http://webenlance.com">Remove Background</a></li>
+                    <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+                    <li><a href="http://webenlance.com">Logo Design</a></li>
+                    <li><a href="http://webenlance.com">Vectorization</a></li>
+                    <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                    <li><a href="http://webenlance.com">Image Cropping</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4 col-md col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+                <ul class="footer_ul2_amrc">
+                    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+                    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+                    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div>
+        <ul class="foote_bottom_ul_amrc">
+            <li><a href="http://webenlance.com">Home</a></li>
+            <li><a href="http://webenlance.com">About</a></li>
+            <li><a href="http://webenlance.com">Services</a></li>
+            <li><a href="http://webenlance.com">Pricing</a></li>
+            <li><a href="http://webenlance.com">Blog</a></li>
+            <li><a href="http://webenlance.com">Contact</a></li>
+        </ul>
+        <p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
+
+        <ul class="social_footer_ul">
+            <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	<script src="file.js"></script>
+  </body>
+</html>
+
+ <style>
+ body {
+    background-color: #FAFAFA;
+}
+html body {
+  overflow-x: hidden;
+}
+.container {
+  box-shadow:4px 0 8px  rgb(5, 5, 5);
+}
+
+/* nav */
+nav{
+  width: 100%;
+  height: 95px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-text{
+  display: flex;
+  flex-direction: row;
+}
+.logo{
+  height: 40px;
+}
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+}
+
+.nav-list li {
+  margin: 0 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.table-responsive {
+  overflow: hidden;
+}
+
+section.regular-padding.advantages.section-bg-grey {
+  margin-top: 103px;
+}
+
+.main-categories h2 {
+  margin-bottom: 40px;
+}
+
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-link {
+  text-decoration: none;
+  color: #222325;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.category-link img {
+  display: block;
+  height: 48px;
+  margin: 0 auto 15px;
+  width: 48px;
+}
+
+.category-link:after {
+  border-bottom: 2px solid #c5c6c9;
+  content: "";
+  padding: 0 0 8px;
+  position: absolute;
+  right: 50%;
+  top: 45px;
+  transform: translateX(50%);
+  width: 48px;
+  transition: border-color 0.2s ease-in-out, padding 0.2s ease-in-out;
+}
+
+.category-link:hover:after {
+  border-color: #1dbf73;
+  padding: 0 20px 8px;
+}
+
+button.learn-more-button {
+  border: 1px solid black;
+}
+
+button.learn-more-button:hover {
+  border: 1px solid black;
+}
+
+.last-sec {
+  margin-top: 166px;
+}
+
+.font-book {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.font-book li {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #adabab;
+  margin-bottom: 10px;
+}
+
+.font-book li i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  left: -30px;
+  top: 0;
+}
+
+.font-book li:hover i {
+  transform: scale(1.2);
+}
+
+.footer {
+  margin-top: 55px;
+}
+
+.footer {
+  background-color: #263238;
+  color: #fff;
+  padding: 40px 0 25px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: #ccc;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .bottom_border {
+  border-bottom: 1px solid #323f45;
+  padding-bottom: 20px;
+}
+
+.footer .foote_bottom_ul_amrc {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .foote_bottom_ul_amrc li {
+  margin: 0 12px;
+}
+
+.footer .social_footer_ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+.footer .social_footer_ul li {
+  margin-right: 10px;
+}
+
+.footer .social_footer_ul li a {
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.footer .social_footer_ul li a:hover {
+  color: #fff;
+}
+.button-01 {
+  background-color: #008080 !important;
+  color: #fff !important;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-01:hover {
+  background-color: #085757 !important;
+}
+
+
+
+
+/* COLOURING ELEMENTS  */
+.section-01{
+  margin-top:10%;
+  overflow: hidden;
+}
+.sec-1{
+  background-color:  #E2D1F9;
+}
+
+
+
+.sec-4{
+  background-color: #FCEDDA;
+}
+
+
+
+.sec-6{
+  background-color: #EED971;
+  padding-left: 33px;
+}
+
+.sec-8{
+  background-color: #A7BEAE;
+  padding: 44px;
+}
+
+/* Navbar for mobile  */
+.navbar-02{
+background-color: #13e4e4;
+height: 53px;
+width: 100%;
+display: flex;
+align-items:center;
+
+}
+.offcanvas-body{
+display: flex;
+flex-direction: column;
+}
+
+.offcanvas {
+  width: 70vw !important;
+}
+
+.card-01{
+  overflow: hidden;
+  background-color: #b8c0c0;
+}
+
+
+@media (max-width: 576px) {
+  .footer .col-md {
+    margin-bottom: 20px;
+  }
+
+  .footer .foote_bottom_ul_amrc {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .foote_bottom_ul_amrc li {
+    margin: 10px 0;
+  }
+
+  .footer .social_footer_ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .social_footer_ul li {
+    margin-bottom: 10px;
+  }
+}
+
+
+@media only screen and (max-width:695px){
+  .pc-nav{
+    display:none;
+  }
+}
+
+
+
+@media only screen and (min-width:695px){
+  .navbar-02{
+    display:none;
+  }
+}
+
+
+@media only screen and (max-width:695px){
+ .img-01{
+  width: 100%;
+  height: 203px;
+ }
+ .section-01{
+  margin-top: 28%;
+}
+
+}
+
+
+ </style>
